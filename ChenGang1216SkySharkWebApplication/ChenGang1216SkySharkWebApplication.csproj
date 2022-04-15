@@ -79,6 +79,7 @@
     <Content Include="LOB\CreateRes.aspx" />
     <Content Include="LOB\QueryStat.aspx" />
     <Content Include="Logoff.aspx" />
+    <Content Include="NA\ManageDatabase.aspx" />
     <Content Include="NA\ManagerUsers.aspx" />
     <Content Include="NA\ManageUsers.aspx" />
     <Content Include="skyShark.png" />
@@ -165,6 +166,13 @@
     </Compile>
     <Compile Include="Logoff.aspx.designer.cs">
       <DependentUpon>Logoff.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="NA\ManageDatabase.aspx.cs">
+      <DependentUpon>ManageDatabase.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="NA\ManageDatabase.aspx.designer.cs">
+      <DependentUpon>ManageDatabase.aspx</DependentUpon>
     </Compile>
     <Compile Include="NA\ManagerUsers.aspx.cs">
       <DependentUpon>ManagerUsers.aspx</DependentUpon>
