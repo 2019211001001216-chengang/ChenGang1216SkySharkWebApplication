@@ -60,13 +60,22 @@ namespace ChenGang1216SkySharkWebApplication.BM
         protected global::System.Web.UI.WebControls.HyperLink HyperLink2;
 
         /// <summary>
-        /// Label2 控件。
+        /// lblMessage 控件。
         /// </summary>
         /// <remarks>
         /// 自动生成的字段。
         /// 若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label Label2;
+        protected global::System.Web.UI.WebControls.Label lblMessage;
+
+        /// <summary>
+        /// Label12 控件。
+        /// </summary>
+        /// <remarks>
+        /// 自动生成的字段。
+        /// 若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label Label12;
 
         /// <summary>
         /// txtFlightNumber 控件。
@@ -94,6 +103,15 @@ namespace ChenGang1216SkySharkWebApplication.BM
         /// 若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label Label3;
+
+        /// <summary>
+        /// calDepartureTime 控件。
+        /// </summary>
+        /// <remarks>
+        /// 自动生成的字段。
+        /// 若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Calendar calDepartureTime;
 
         /// <summary>
         /// txtDepartureTime 控件。
@@ -150,13 +168,22 @@ namespace ChenGang1216SkySharkWebApplication.BM
         protected global::System.Web.UI.WebControls.Label Label5;
 
         /// <summary>
-        /// txtArivaleTime 控件。
+        /// calArrivalTime 控件。
         /// </summary>
         /// <remarks>
         /// 自动生成的字段。
         /// 若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtArivaleTime;
+        protected global::System.Web.UI.WebControls.Calendar calArrivalTime;
+
+        /// <summary>
+        /// txtArrivalTime 控件。
+        /// </summary>
+        /// <remarks>
+        /// 自动生成的字段。
+        /// 若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox txtArrivalTime;
 
         /// <summary>
         /// RequiredFieldValidator4 控件。
@@ -285,13 +312,13 @@ namespace ChenGang1216SkySharkWebApplication.BM
         protected global::System.Web.UI.WebControls.Label Label10;
 
         /// <summary>
-        /// txtNoOfBusisSeats 控件。
+        /// txtNoOfBusiSeats 控件。
         /// </summary>
         /// <remarks>
         /// 自动生成的字段。
         /// 若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtNoOfBusisSeats;
+        protected global::System.Web.UI.WebControls.TextBox txtNoOfBusiSeats;
 
         /// <summary>
         /// RequiredFieldValidator9 控件。
@@ -312,13 +339,13 @@ namespace ChenGang1216SkySharkWebApplication.BM
         protected global::System.Web.UI.WebControls.Label Label11;
 
         /// <summary>
-        /// txtBusiFares 控件。
+        /// txtBusiFare 控件。
         /// </summary>
         /// <remarks>
         /// 自动生成的字段。
         /// 若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtBusiFares;
+        protected global::System.Web.UI.WebControls.TextBox txtBusiFare;
 
         /// <summary>
         /// RequiredFieldValidator10 控件。
@@ -339,12 +366,12 @@ namespace ChenGang1216SkySharkWebApplication.BM
         protected global::System.Web.UI.WebControls.Button btnSubmit;
 
         /// <summary>
-        /// btnCancel 控件。
+        /// btnCancle 控件。
         /// </summary>
         /// <remarks>
         /// 自动生成的字段。
         /// 若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btnCancel;
+        protected global::System.Web.UI.WebControls.Button btnCancle;
     }
 }
