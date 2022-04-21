@@ -24,22 +24,22 @@ namespace ChenGang1216SkySharkWebApplication
         protected global::System.Web.UI.WebControls.Image Image1;
 
         /// <summary>
-        /// form1 控件。
+        /// from1 控件。
         /// </summary>
         /// <remarks>
         /// 自动生成的字段。
         /// 若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlForm form1;
+        protected global::System.Web.UI.HtmlControls.HtmlForm from1;
 
         /// <summary>
-        /// lbMessage 控件。
+        /// lblMessage 控件。
         /// </summary>
         /// <remarks>
         /// 自动生成的字段。
         /// 若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lbMessage;
+        protected global::System.Web.UI.WebControls.Label lblMessage;
 
         /// <summary>
         /// Label1 控件。
